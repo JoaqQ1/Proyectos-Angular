@@ -1,0 +1,11 @@
+<p>ejercicio1 works!</p>
+<p>Por favor, ingrese su edad</p>
+<input type="number" [(ngModel)]="edadUno">
+<p>Por favor, ingrese otra edad</p>
+<input type="number" [(ngModel)]="edadDos">
+
+<button  (click)="mostrarDatos()">Calcular</button>
+<button  (click)="ocultarDatos()">Limpiar</button>
+
+<p> Promedio de las edades: {{promedio}}</p>
+<p> Suma de las edades: {{suma}}</p>
